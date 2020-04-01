@@ -13,7 +13,7 @@ do
 	d=$(( $i / 10000))
 
 	mkdir -p $base/$d/$c/$b/$a
-	lorem -w 2 | sed 's/ //g'  > $base/$d/$c/$b/$a/$i.txt
+	lorem -w 2  > $base/$d/$c/$b/$a/$i.txt
 
 	i=$(( $i + 1 ))
 
